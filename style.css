@@ -1,0 +1,78 @@
+body{
+    background-color: aliceblue;
+
+}
+
+.main{
+    margin-top: 100px ;
+    margin-left: 100px;
+}
+
+h1{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+h1 img {
+
+    width: 50px;
+    margin-top: -10px;
+    padding-left: 10px;
+
+
+}
+
+
+.btn{
+
+    width: 120px;
+    font-size: 17px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-color: white;
+    padding-bottom: 0px;
+    display: flex;
+    padding-top: 10px;
+    padding-right: 15px;
+    height: 40px;
+    padding-left: 10px;
+    cursor: pointer;
+
+
+
+}
+
+.btn img{
+
+    width: 30px;
+
+}
+
+
+.input-box{
+
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+
+
+}
+
+.input-box img{
+
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    width: 30px;
+    cursor: pointer;
+    
+}
